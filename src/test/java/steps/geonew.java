@@ -29,7 +29,7 @@ public class geonew {
 
 	    @When("the user sends a request to the geolocation API")
 	    public void theUserSendsARequestToTheGeolocationAPI() {
-	        RequestSpecification request = given().log().all().queryParam("key","AIzaSyBHAWAFxNJT2PKqE_l7LgvOU-aFSIdDj0Y").header("Content-Type", "application/json")
+	        RequestSpecification request = given().log().all().queryParam("key","API_KEY").header("Content-Type", "application/json")
 	                                              .body(requestBody);
 
 	        response = request.when().post().then().log().all().extract().response();
