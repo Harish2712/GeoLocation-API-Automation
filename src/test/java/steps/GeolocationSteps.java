@@ -17,7 +17,6 @@ import static org.hamcrest.Matchers.equalTo;
 
 public class geonew {
 	 private Response response;
-	   // private String apiKey = "AIzaSyBHAWAFxNJT2PKqE_l7LgvOU-aFSIdDj0Y";
 	    private String baseUrl = "https://www.googleapis.com/geolocation/v1/geolocate/";
 	    private Map<String, Object> requestBody;
 
