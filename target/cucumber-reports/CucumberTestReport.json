@@ -1,0 +1,367 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-07-29T04:17:41.014Z",
+        "before": [
+          {
+            "result": {
+              "duration": 122216300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 124406800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Test Geolocation API with positive data new",
+        "description": "",
+        "id": "geolocation-api-testing;test-geolocation-api-with-positive-data-new;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 189519800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 370880700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user provides geolocation data from \"src/test/resources/testdataAPI/positive/positive1.json\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"src/test/resources/testdataAPI/positive/positive1.json\"",
+                  "offset": 40
+                }
+              ],
+              "location": "steps.geonew.theUserProvidesGeolocationDataFrom(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 883188300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user sends a request to the geolocation API",
+            "match": {
+              "location": "steps.geonew.theUserSendsARequestToTheGeolocationAPI()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 377596500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the API should return a valid geolocation response",
+            "match": {
+              "location": "steps.geonew.theAPIShouldReturnAValidGeolocationResponse()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@positive"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-07-29T04:17:43.103Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 3001000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Test Geolocation API with positive data new",
+        "description": "",
+        "id": "geolocation-api-testing;test-geolocation-api-with-positive-data-new;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 6069500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 997400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user provides geolocation data from \"src/test/resources/testdataAPI/positive/positive2.json\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"src/test/resources/testdataAPI/positive/positive2.json\"",
+                  "offset": 40
+                }
+              ],
+              "location": "steps.geonew.theUserProvidesGeolocationDataFrom(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 129101900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user sends a request to the geolocation API",
+            "match": {
+              "location": "steps.geonew.theUserSendsARequestToTheGeolocationAPI()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18837500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the API should return a valid geolocation response",
+            "match": {
+              "location": "steps.geonew.theAPIShouldReturnAValidGeolocationResponse()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@positive"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-07-29T04:17:43.269Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 3001300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Test Geolocation API with negative data",
+        "description": "",
+        "id": "geolocation-api-testing;test-geolocation-api-with-negative-data;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 6513700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1118400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user provides geolocation data from \"src/test/resources/testdataAPI/negative/negative1.json\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"src/test/resources/testdataAPI/negative/negative1.json\"",
+                  "offset": 40
+                }
+              ],
+              "location": "steps.geonew.theUserProvidesGeolocationDataFrom(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 114406600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user sends a request to the geolocation API",
+            "match": {
+              "location": "steps.geonew.theUserSendsARequestToTheGeolocationAPI()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the API should return an error response",
+            "match": {
+              "location": "steps.geonew.theAPIShouldReturnAnErrorResponse()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@negative"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-07-29T04:17:43.401Z",
+        "before": [
+          {
+            "result": {
+              "duration": 504900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 3013400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Test Geolocation API with negative data",
+        "description": "",
+        "id": "geolocation-api-testing;test-geolocation-api-with-negative-data;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 6005400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user provides geolocation data from \"src/test/resources/testdataAPI/negative/negative2.json\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"src/test/resources/testdataAPI/negative/negative2.json\"",
+                  "offset": 40
+                }
+              ],
+              "location": "steps.geonew.theUserProvidesGeolocationDataFrom(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 116132000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user sends a request to the geolocation API",
+            "match": {
+              "location": "steps.geonew.theUserSendsARequestToTheGeolocationAPI()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1005800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the API should return an error response",
+            "match": {
+              "location": "steps.geonew.theAPIShouldReturnAnErrorResponse()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@negative"
+          }
+        ]
+      }
+    ],
+    "name": "Geolocation API Testing",
+    "description": "",
+    "id": "geolocation-api-testing",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Geolocationapi.feature",
+    "tags": []
+  }
+]
