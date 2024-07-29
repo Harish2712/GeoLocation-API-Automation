@@ -17,7 +17,7 @@ import java.util.Map;
 public class GeolocationSteps {
 
     /*public Response response;
-    public String baseUrl = "https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyBHAWAFxNJT2PKqE_l7LgvOU-aFSIdDj0Y";
+    public String baseUrl = "https://www.googleapis.com/geolocation/v1/geolocate?key=API_KEY";
 
     @Given("the user provides geolocation data for positive scenarios")
     public void theUserProvidesGeolocationDataForPositiveScenarios() {
